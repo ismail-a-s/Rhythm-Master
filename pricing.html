@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|League Spartan">
+<html>
+  <head>
+    <!--Updated image links-->
+      <style>
+          .jamieContainer{
+            /* used yimings code to make it look more cohesive in the end, but changed the height*/
+            width: 100%; /* 100% of the viewport width */
+            height: auto; /* Height of the rectangular box */
+            /* max-height: 200px; */
+            /* min-height: 70px; */
+            background-color: #d1c9c6; /* Background color of the rectangular box */
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            padding: 30px;
+            padding-bottom: 40px;
+            flex-grow: 1;
+            margin: 0 auto; /* Center the container horizontally */
+          }
+
+          .jamieBoxes {
+            width: 50%;
+            max-width: 500px; /* Optional: Set a maximum width for the boxes */
+            background-color: #a44269;
+            margin: 30px;
+            padding: 20px;
+
+            border-radius: 3cap;
+            border-style: outset;
+            border-color: #42a47d;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .jamieBoxes img{
+            width: 70%;
+            height: auto;
+            border-radius: 3cap;
+            border-style: outset;
+            border-color: #42a47d;
+            margin: 10px;   
+          }
+
+          .jamieBoxes ul{
+            width: 70%;
+            height: auto;
+            border-radius: 3cap;
+            margin: 10px;    
+            text-align: center;
+          }
+
+          .jamieBoxes ul li{
+            margin-left: 1em;
+            color: #d1c9c6;
+            text-align: left;
+            font-family: 'Nunito', sans-serif;
+          }
+
+          .jamieBoxes h1{
+            font-family: 'Nunito', sans-serif;
+            color:#d1c9c6
+          }
+
+          .jamieBoxes h2{
+            font-family: 'Nunito', sans-serif;
+            color:#d1c9c6
+          }
+
+          .logo{
+            height : 50px;
+            border-radius: 50px;
+          }
+
+          .company-name{
+            font-family: Nunito;
+            margin: 0;
+            position: relative;
+            text-align: center;
+            top: 25%;
+          }
+
+          .button-container {
+              position: absolute;
+                top: 10px;
+                right: 10px;
+          }
+
+          .button {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 1px solid black;
+            font-family: Nunito;
+          }
+
+          .button:hover{
+            background-color: #bab0ad
+          }
+          
+          .button-top {
+            border-radius: 20px;
+            border: 1px solid #42a47d;
+            padding: 10px 20px;
+            background-color: #a44269;
+            color: white;
+            text-decoration: none;
+            font-family: Nunito;
+          }
+
+          body {
+            background-color: #d1c9c6;
+            margin: 0;
+            font-family: Nunito;
+            color: rgb(255, 241, 250);
+          }
+      
+        </style>
+      </head>
+
+    <header>
+    </header>
+    <body>
+      <div class="header">
+        <a href="index.html"> <img class="logo" src="https://raw.githubusercontent.com/Rhythm-Master/Rhythm-Master.github.io/main/pictures%20used/logo.png" alt="Company Logo" > </a>
+        <h1 class="company-name">RhythmMaster</h1> </a>
+      </div>
+    
+      <div class="button-container">
+        <a class="button" href="index.html">Home</a>
+        <a class="button" href="about.html">About</a>
+        <a class="button" href="why_us.html">Why Us</a>
+        <a class="button" href="pricing.html">Pricing</a>
+        <a class="button" href="partners.html">Partners</a>
+        <a class="button-top" href="login.html">Login/Sign Up</a>
+      </div>
+
+
+      <div class="jamieContainer">
+        <div class="jamieBoxes">
+          <h1 style="color: #d1c9c6;">
+            Free
+          </h1>
+          <h2 style="color: #d1c9c6;">
+            A taste of our incredible features
+          </h2>
+                <!--dummy images, change to something cheesy like someone playing a violin-->
+          <img src=https://raw.githubusercontent.com/Rhythm-Master/Rhythm-Master.github.io/main/pictures%20used/violinGuy.jpg alt="hello">
+            <ul>
+              <li><p>Pitch detection for immediate feedback</p></li>
+              <li><p>AI coaches to detect playing performance</p></li>
+              <li><p>Personalized learning roadmap</p></li>
+              <li><p>Daily goals</p></li>
+              </ul>
+          </div>
+          <div class="jamieBoxes">
+            <h1 style="color: #d1c9c6;">
+              Pro
+            </h1>
+            <h2 style="color: #d1c9c6;">
+              $10.00/month
+                </h2>
+                <!--dummy images, change to BAGPIPES!!!-->
+                <img src=https://raw.githubusercontent.com/Rhythm-Master/Rhythm-Master.github.io/main/pictures%20used/bagpipeGuy.jpg alt="hello">
+                <ul>
+                    <li><p>Pitch detection for immediate feedback</p></li>
+                    <li><p>AI coaches to detect playing performance</p></li>
+                    <li><p>Personalized learning roadmap</p></li>
+                    <li><p>Daily goals</p></li>
+                    <li><p>Access to real time coaches through the partners program</p></li>
+                    <li><p>Access to courses through the partners program</p></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

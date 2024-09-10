@@ -1,0 +1,168 @@
+    body{
+    background-color: #d1c9c6;
+    margin: 0;
+    margin-top:80px;
+    padding:0;
+    } 
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color: white;
+      }
+    
+    .company-name {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-family: Arial;
+      }
+
+
+
+    
+    .AMheader {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      color: white;
+    }
+    .AMlogo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .AMcompany-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+	  font-family: Arial;
+    }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f56476;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+header img{
+    width: 100px;
+    height: auto;
+    border-radius: 3cap;
+    margin-left: 10px;
+}
+
+header h1{
+    margin-left: 10px;
+    color: #5e4352;
+    font-family: 'Nunito', sans-serif;
+}
+
+header ul{
+    vertical-align:bottom;
+    width: max-content;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+header ul p{
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    height: 100%;
+    color: #5e4352;
+    padding: 10px 20px;
+    margin:0;
+    background-color: #f56476;
+    font-family: 'Nunito', sans-serif;
+}
+
+header ul p:hover{
+    background-color: #e0426e;
+    text-decoration: underline;
+} */
+
+.jamieContainer{
+    /* used yimings code to make it look more cohesive in the end, but changed the height*/
+    width: 100%; /* 100% of the viewport width */
+    height: auto; /* Height of the rectangular box */
+    /* max-height: 200px; */
+    /* min-height: 70px; */
+    background-color: #d1c9c6; /* Background color of the rectangular box */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 30px;
+    padding-bottom: 40px;
+    flex-grow: 1;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.jamieBoxes {
+    width: 50%;
+    max-width: 500px; /* Optional: Set a maximum width for the boxes */
+    background-color: #be3e82;
+    margin: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jamieBoxes img{
+    width: 70%;
+    height: auto;
+    border-radius: 3cap;
+    border-style: outset;
+    border-color: #f56476;
+    margin: 10px;   
+}
+
+
+.jamieBoxes ul{
+    width: 70%;
+    height: auto;
+    border-radius: 3cap;
+    margin: 10px;    
+    text-align: center;
+}
+
+.jamieBoxes ul li{
+    margin-left: 1em;
+    color: #d1c9c6;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+   /* background-color: aqua;*/
+}
+
+.jamieBoxes h1{
+    font-family: 'Nunito', sans-serif;
+    color:#d1c9c6
+}
+
+.jamieBoxes h2{
+    font-family: 'Nunito', sans-serif;
+    color:#d1c9c6
+}

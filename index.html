@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|League Spartan">
+<html lang="en">
+<head>
+  <style>
+
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .logo{
+      height : 50px;
+      border-radius: 50px;
+    }
+
+    .company-name{
+      font-family: Nunito;
+    }
+
+    .button-container {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: transparent;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      border: 1px solid black;
+      font-family: Nunito;
+    }
+
+    .button:hover{
+      background-color: #bab0ad
+     }
+
+    .button-top {
+      border-radius: 20px;
+      border: 1px solid black;
+      padding: 10px 20px;
+      background-color: #a44269;
+      color: white;
+      text-decoration: none;
+      font-family: Nunito;
+    }
+
+    body {
+      background-color: #d1c9c6;
+      margin: 0;
+      font-family: Nunito;
+      color: rgb(255, 241, 250);
+    }
+
+    .logo{
+      height: 50px;
+      border-radius : 50px
+    }
+
+    .parallax-1 {
+		width: 100%;
+        height: 600px;
+        background: url(images/piano.png);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        font-size: 30px;
+        font-family: Arial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+		border: 5px solid rgb(95, 9, 60);
+		border-color: #a44269;
+    }
+
+    .parallax-1 h2 {
+		margin: 0;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+	.parallax-1 h4 {
+		margin: 0;
+        padding: 10px;
+        color: rgb(94, 91, 91);
+        text-align: center;
+        font-family: Arial;
+	}
+
+    .parallax-2 {
+      width: 100%;
+      height: 600px;
+      background: href img('https://static.vecteezy.com/system/resources/thumbnails/000/696/278/small/textured-black-background.jpg');
+      background-size: 100% 100%;
+      background-attachment: fixed;
+    }
+
+    .parallax-2 h2 {
+		margin: auto;
+        width: 250px;
+        height: 37px;
+        padding: 10px;
+        background-color: white;
+        color: rgb(226, 208, 214);
+        text-align: center;
+        font-size: 24px; 
+        font-family: Arial; 
+    }
+	
+    .para-1 {
+      padding: 50px;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      font-size: 17px;
+    }
+
+    .para-2 {
+      text-align: center;
+      padding: 25px;
+      font-size: 17px;
+      font-family: Arial;
+      background-color: black;
+      color: white;
+    }
+
+
+    .button-signup {
+		margin: auto;
+		position: absolute;
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        background-color: rgb(241, 236, 239);
+        color: rgb(109, 7, 65);
+        text-align: center;
+        border-radius: 10px;
+        left: 50%;
+        top: 150%;
+        transform: translate(-50%, -50%);
+		font-size: 35px;
+		border: 5px solid rgb(0, 0, 0);
+		text-decoration: none;  
+    }
+
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const signUpButton = document.querySelector('.button-signup');
+      signUpButton.addEventListener('click', function() {
+        alert('Thank you for signing up!');
+      });
+    });
+  </script>
+</head>
+
+  <body>
+    <div class="header">
+      <a href="index.html"> <img class="logo" src="https://raw.githubusercontent.com/Rhythm-Master/Rhythm-Master.github.io/main/pictures%20used/logo.png" alt="Company Logo" > </a>
+      <h1 class="company-name">RhythmMaster</h1> </a>
+    </div>
+
+    <div class="button-container">
+        <a class="button" href="index.html">Home</a>
+        <a class="button" href="about.html">About</a>
+        <a class="button" href="why_us.html">Why Us</a>
+        <a class="button" href="pricing.html">Pricing</a>
+        <a class="button" href="partners.html">Partners</a>
+        <a class="button-top" href="login.html">Login/Sign Up</a>
+    </div>
+
+    <div class="parallax-1">
+    <h4>Welcome to</h4>
+      <h2>RhythmMaster</h2>
+    </div>
+
+    <div class="para-2">
+      <p>Try Our Premium Services</p>
+    </div>
+
+    <div class="parallax-2">
+      <a class="button-signup" href="#">Sign Up</a>
+    </div>
+
+    <div class="para-2">
+      <p>Music Lessons At Your Fingertips!</p>
+    </div>
+
+    <div class="parallax-1">
+      <h2>RhythmMaster</h2>
+    </div>
+
+    <div class="para-2">
+      <p>Learn Form Anywhere!</p>
+    </div>
+
+    <script>
+      function addHoverEffect(element, hoverColor) {
+          element.addEventListener('mouseenter', function() {
+              this.style.backgroundColor = hoverColor;
+          });
+
+          element.addEventListener('mouseleave', function() {
+              this.style.backgroundColor = 'transparent';
+          });
+       }
+
+       var buttons = document.querySelectorAll('.button');
+       buttons.forEach(function(button) {
+          addHoverEffect(button, '#a44269');
+       });
+
+       var buttons = document.querySelectorAll('.box-button');
+       buttons.forEach(function(button) {
+          addHoverEffect(button, '#c56e90');
+       });
+
+       var buttonTop = document.querySelectorAll('.button-top');
+       addHoverEffect(buttonTop, '#808080');
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,40 @@
+Rhythm-Master Style Guidelines:
+*****************************************
+
+
+
+Colours: Sunset colourscheme
+*****************************************
+-f56476 (light-pink: Use for key area background as it pops the most)
+-e0426e (Vibrant pink: Use for key area background as it pops the most)
+-be3e82 (Magenta: Use for key area background as it pops the most)
+-5e4352 (Dark-eggplant:Use for darker areas or text with lighter background)
+-d1c9c6 (Light-beige:Use for backgrounds)
+-dfbbb1 (Light-beige/light-pink:Use for background but may clash)
+
+Headers/key text areas:
+******************************************
+Font: https://fonts.google.com/specimen/Nunito
+Bold to emphasize text
+
+Other text areas:
+*******************************************
+https://fonts.google.com/specimen/League+Spartan
+https://fonts.google.com/specimen/Nunito
+https://fonts.google.com/specimen/Playpen+Sans
+https://fonts.google.com/specimen/Agbalumo
+
+or other playful fonts that showcase the artsy vibes we're going for
+
+Buttons:
+********************************************
+-Login/signup: 5px rounded
+-Other buttons:2px rounded
+-Highlight when hovering
+-Underlining Text when hovering
+
+General Aesthetics:
+********************************************
+The general idea is to create a sense of playfulness that we want our users to associate our brand with. Our idea is to promote creativity and our website will reflect this by using vibrant sunset colours. This will make the website more eye-catching as well as reflect the nature of Rhythm Master.
+
+

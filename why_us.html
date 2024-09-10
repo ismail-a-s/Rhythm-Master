@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|League Spartan">
+<html>
+    <head>
+        <!--Updated colours-->
+        <title>Why Us</title>
+        <style>
+            .logo{
+                height : 50px;
+                border-radius: 50px;
+            }
+
+            .company-name{
+                font-family: Nunito;
+            }
+
+            .button-container {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+
+            .button {
+                display: inline-block;
+                margin-right: 10px;
+                padding: 10px 20px;
+                background-color: transparent;
+                color: black;
+                text-decoration: none;
+                border-radius: 5px;
+                border: 1px solid black;
+                font-family: Nunito;
+            }
+
+            .button:hover{
+                background-color: #bab0ad
+            }
+            .button-top {
+                border-radius: 20px;
+                border: 1px solid black;
+                padding: 10px 20px;
+                background-color: #a44269;
+                color: white;
+                text-decoration: none;
+                font-family: Nunito;
+                }
+
+            body {
+                background-color: #d1c9c6;
+                margin: 0;
+                font-family: Nunito;
+                color: rgb(255, 241, 250);
+            }
+
+            .title {
+                height: 80px;
+                width: 100%;  
+                color: #a44269;
+            }
+
+            h1{
+                margin: 0;
+                position: relative;
+                text-align: center;
+                top: 25%;
+
+            }
+
+            .container{
+
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 30px;
+            }
+            
+            .image_container{
+                position: relative;
+                overflow: hidden;
+        
+            }
+
+            .image{
+                width: 17vw;
+                height: 17vw;
+            }
+
+            .section{
+                text-align: center;
+                flex: 1;
+                transform: translateY();
+            }
+
+            .description{
+                font-size: 1.1vw;
+                margin-top: -30px;
+                margin-left: 25px;
+                margin-right: 25px;
+            }
+
+            .headerThing{
+                font-size: 2vw;
+                text-align: center;
+                font-weight: bold;
+                color: rgb(223, 123, 173)
+            }
+
+            .bg-circles{
+                position: absolute;
+                width: 15vw; 
+                height: 15vw; 
+                border-radius: 50%;
+
+                border-width: 10px;
+                border-style: solid;
+                border-color: #42a47d;
+
+                background-color: #5e4352;
+                z-index: -1;
+
+                opacity: 0.5;
+
+                top: 0vw;
+                left: 8.8vw;
+            }
+            
+            .bg-bar{
+                position: absolute;
+                width: 100%; 
+                height: 12vw; 
+                background-color: #5e4352;
+                z-index: -1;
+                opacity: 0.09;
+                transform: translateY(0.9vw);
+            }
+
+         
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html"> <img class="logo" src="https://raw.githubusercontent.com/Rhythm-Master/Rhythm-Master.github.io/main/pictures%20used/logo.png" alt="Company Logo" > </a>
+            <h1 class="company-name">RhythmMaster</h1> </a>
+        </div>
+        
+        <div class="button-container">
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="about.html">About</a>
+            <a class="button" href="why_us.html">Why Us</a>
+            <a class="button" href="pricing.html">Pricing</a>
+            <a class="button" href="partners.html">Partners</a>
+            <a class="button-top" href="login.html">Login/Sign Up</a>
+        </div>
+
+        <div class = "title"> 
+            <h1> Why choose RhythmMaster? </h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                <div class="image_container">
+                    <div class="bg-circles"></div>
+                    <img class="image" src="https://raw.githubusercontent.com/Rhythm-Master/Rhythm-Master.github.io/main/pictures%20used/trebleclef.png" alt="Photo of Music Note">
+                </div>
+                <div class="bg-bar">
+                    
+                </div>
+                <div class="headerThing">
+                    <h4>Music Made Easy</h4>
+                </div>
+                <div class="description">
+                    We know how hard it is to start learning music, which is why we made our app 
+                    as intuitive and beginner-friendly as possible!
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="image_container">
+                    <div class="bg-circles"></div>
+                    <img class="image" src="https://raw.githubusercontent.com/Rhythm-Master/Rhythm-Master.github.io/main/pictures%20used/bagpipe.png" alt="Photo of Bagpipe">
+                </div>
+                <div class="headerThing">
+                    <h4>Personalized Learning Roadmap</h4>
+                </div>
+                <div class="description">
+                    Our AI coaches will help analyze your musical abilities and create a roadmap 
+                    which is guaranteed to quickly improve your playing.
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="image_container">
+                    <div class="bg-circles"></div>
+                    <img class="image" src="https://raw.githubusercontent.com/Rhythm-Master/Rhythm-Master.github.io/main/pictures%20used/dollarsign.png" alt="Photo of Money Sign">
+                    
+                </div>
+                <div class="headerThing">
+                    <h4>Cheaper Alternative</h4>
+                </div>
+                <div class="description">
+                    With our premium plan at only $10.00 per month, Rhythm Master is sure to
+                    deliver its worth and more!
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
