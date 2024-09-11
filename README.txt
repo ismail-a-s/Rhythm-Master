@@ -1,11 +1,13 @@
+**This was a group project, the members names are listed below.**
+
 Team name: (Rhythm Master)
 
 Members:
-	Yiming Huang (300348238)
-	Amani Mohamed (300349984)
-	Jamie Watson (300356613)
-	Ismail Shaheen (300362216)
-	Leonardo Atalla (300352589)
+	Yiming Huang 
+	Amani Mohamed 
+	Jamie Watson 
+	Ismail Shaheen 
+	Leonardo Atalla 
 
 Product name: Rhythm Master
 
